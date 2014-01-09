@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings"
+    android:key="settings">
+
+    <PreferenceCategory android:title="@string/settings_categories_general">
+
+        <EditTextPreference
+            android:key="refresh_interval"
+            android:title="@string/settings_refresh_interval"
+            android:hint="@string/settings_refresh_interval_hint" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_categories_tags">
+        <EditTextPreference
+            android:key="tags_main"
+            android:title="@string/settings_tags_main"
+            android:hint="@string/settings_tags_main_hint" />
+        <EditTextPreference
+            android:key="tags_sun"
+            android:title="@string/settings_tags_sun"
+            android:hint="@string/settings_tags_sun_hint" />
+        <EditTextPreference
+            android:key="tags_rain"
+            android:title="@string/settings_tags_rain"
+            android:hint="@string/settings_tags_rain_hint" />
+        <EditTextPreference
+            android:key="tags_cloud"
+            android:title="@string/settings_tags_cloud"
+            android:hint="@string/settings_tags_cloud_hint" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

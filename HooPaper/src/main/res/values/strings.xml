@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Hoo Paper</string>
+
+    <string name="settings">Settings</string>
+    <string name="settings_refresh_interval">Update Interval</string>
+    <string name="settings_refresh_interval_hint">Enter a number in milliseconds.</string>
+
+    <string name="settings_categories_general">General</string>
+    <string name="settings_categories_tags">Tags</string>
+
+    <string name="settings_tags_main">Main Tag</string>
+    <string name="settings_tags_main_hint">Enter the main tag for your images. E.g. projectweather</string>
+
+    <string name="settings_tags_sun">Sun Tag</string>
+    <string name="settings_tags_sun_hint">Enter additional tags for \'Sun\'. E.g. Sunny, Sunshine</string>
+
+    <string name="settings_tags_rain">Rain Tag</string>
+    <string name="settings_tags_rain_hint">Enter additional tags for \'Rain\'. E.g. Rainy, Wet</string>
+
+    <string name="settings_tags_cloud">Cloud Tag</string>
+    <string name="settings_tags_cloud_hint">Enter additional tags for \'Cloud\'. E.g. Cloudy</string>
+</resources>
